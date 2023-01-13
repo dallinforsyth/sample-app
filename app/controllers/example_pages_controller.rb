@@ -4,6 +4,10 @@ class ExamplePagesController < ApplicationController
   end
 
   def goodbye_method
-    render json: { message: "good_bye" }
+    render json: { message: "good bye" }
+  end
+
+  def go_away_method
+    render json: { message: "go away" }
   end
 end
