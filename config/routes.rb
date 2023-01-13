@@ -11,4 +11,6 @@ Rails.application.routes.draw do
 
   get "/go_away_path", controller: "example_pages",
                        action: "go_away_method"
+  get "/why_hello_there_path", controller: "example_pages",
+                               action: "why_hello_there_method"
 end

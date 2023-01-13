@@ -10,4 +10,8 @@ class ExamplePagesController < ApplicationController
   def go_away_method
     render json: { message: "go away" }
   end
+
+  def why_hello_there_method
+    render json: { message: "KENOBI" }
+  end
 end
